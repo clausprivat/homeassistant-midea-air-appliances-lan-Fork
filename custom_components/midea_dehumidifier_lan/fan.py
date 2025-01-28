@@ -54,7 +54,7 @@ class DehumidiferFan(ApplianceEntity, FanEntity):
 
     _attr_supported_features = (
         FanEntityFeature.PRESET_MODE |
-        SET_SPEED
+        FanEntityFeature.SET_SPEED
     )
 
     _attr_preset_modes = PRESET_MODES_7
